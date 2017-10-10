@@ -1,0 +1,59 @@
+@charset utf-8;
+/* CSS Document */
+div.container {
+	width: 100%;
+	border: 0px solid gray;
+}
+
+ .circle{
+	display: table-cell;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 50%;
+	background:#7F7E7E;
+	color: white;
+}
+.img-circle {
+	border-radius: 50%;
+}
+
+header{
+	padding: 1em;
+	color: white;
+	background-color: black;
+	clear: left;
+	text-align: center;
+} 
+
+footer{
+	padding: 1em;
+	color: white;
+	background-color: #464646;
+	clear: left;
+	text-align: center;
+} 
+
+nav ul {
+list-style-type: none;
+padding: 0;
+
+
+}
+
+a{
+
+	text-decoration: none;
+}
+
+nav ul a {
+	text-decoration: none;
+	color: black;
+}
+main{
+	margin-left: 170px;
+	border-left: 1px solid gray;
+	padding: 1em;
+	overflow: hidden;
+}
